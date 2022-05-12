@@ -4,13 +4,24 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "test:watch": "jest --watchAll"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
     "@types/jest": "^27.5.0",
+    "babel-jest": "^28.1.0",
     "jest": "^28.0.3"
+  },
+  "dependencies": {
+    "dinero.js": "^1.9.1",
+    "global": "^4.4.0",
+    "httpserver": "^0.3.0",
+    "lodash": "^4.17.21",
+    "prettier": "^2.6.2"
   }
 }
